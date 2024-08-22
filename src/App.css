@@ -1,0 +1,91 @@
+* {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.product {
+	width: 200px;
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	border: 1px solid grey;
+	border-radius: 6px;
+}
+
+.prod_info {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+button {
+	border-radius: 8px;
+	border: 1px solid transparent;
+	padding: 0.6em 1.2em;
+	font-size: 1em;
+	font-weight: 500;
+	font-family: inherit;
+	background-color: rgb(245, 137, 137);
+	cursor: pointer;
+	transition: border-color 0.25s;
+	color: #fff;
+}
+button:hover {
+	border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+	outline: 4px auto -webkit-focus-ring-color;
+}
+
+.content {
+	display: flex;
+	gap: 50px;
+}
+
+.list {
+	display: flex;
+	gap: 30px;
+	width: 800px;
+	flex-wrap: wrap;
+}
+
+.list img {
+	width: 100px;
+	height: 150px;
+	cursor: pointer;
+	transition: 0.2s;
+}
+
+.list img:hover {
+	transform: translateY(-20px);
+	top: -4px;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+.tabelcont {
+	position: sticky;
+	top: 20px;
+}
+
+table,
+tr,
+th,
+td {
+	border: 1px solid gray;
+}
+
+th,
+td {
+	padding: 5px 15px;
+}
+
+.actions {
+	border: none;
+	display: flex;
+	gap: 10px;
+}
